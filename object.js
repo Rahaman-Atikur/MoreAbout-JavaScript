@@ -4,8 +4,10 @@ const hena ={
     friends:['Ali','Akbar','Mike'],
     isMarried:false,
     fathersName:'Joe',
-    mothersName:'Donald'
+    mothersName:'Donald',
+     'hi-100':'ok'
+
 };
 console.log(Object.keys(hena));
 console.log(Object.values(hena));
-console.log(hena.friends[2]);
+console.log(hena['hi-100']);
